@@ -1,7 +1,8 @@
 # Windows Python Launcher
 
-**Customizable Windows batch script to launch Python projects and files**
-
+**Customizable Windows batch script to launch Python projects and files.**  
+*Ideal for testing and distributing python projects without compiling*
+---
 ## Features
 
 - Detects installed Python version and optionally uses the `py` launcher.
