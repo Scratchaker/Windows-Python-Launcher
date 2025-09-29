@@ -20,7 +20,7 @@ Edit the batch script to customize the behavior:
 - `pythonversion` - Python version to use with the launcher.  
 - `pythondir` - Path or command for Python executable (Useful when using portable python versions).  
 - `windowname` - Title of the command prompt window.  
-- `initialfiles` - List of initial files to run if no argument is provided.  
+- `initialfiles` - List of initial files to run if no argument is provided. (Follow the example structure to add filenames).  
 - `usevenv` - Create and use a virtual environment (1 = enabled, 0 = disabled).  
 - `venvname` - Name of the virtual environment.  
 - `installrequirementsfile` - Install `requirements.txt` in venv (1 = enabled, 0 = disabled).  
