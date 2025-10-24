@@ -1,7 +1,7 @@
 # Windows Python Launcher
 
 **Customizable Windows batch script to launch Python projects and files.**  
-*Ideal for testing and distributing python projects without compiling*
+*Ideal for testing and distributing python projects without compiling.*
 ---
 ## Features
 
@@ -16,8 +16,7 @@
 
 Edit the batch script to customize the behavior:
 
-- `usepylancher` - Use the `py` launcher (1 = enabled, 0 = disabled).  
-- `pythonversion` - Python version to use with the launcher.  
+- `pythonversion` - Python version to use with the launcher. Will be ignored if pythondir is not py or py.exe
 - `pythondir` - Path or command for Python executable (Useful when using portable python versions).  
 - `windowname` - Title of the command prompt window.  
 - `initialfiles` - List of initial files to run if no argument is provided. (Follow the example structure to add filenames).  
@@ -26,7 +25,9 @@ Edit the batch script to customize the behavior:
 - `installrequirementsfile` - Install `requirements.txt` in venv (1 = enabled, 0 = disabled).  
 - `requirementsfile` - Path to the requirements file.  
 - `minimizedcmd` - Start command prompt minimized (1 = yes, 0 = no).  
-- `passarguments` - Pass arguments to the Python script  (1 = yes, 0 = no) (drag and drop will be disabled!).
+- `autoclosecmd` - Close the command prompt window when the python file execution has ended (1 = yes, 0 = no).  
+- `passarguments` - Pass arguments to the Python script  (1 = yes, 0 = no) (drag and drop will be disabled!).  
+- `alertifpynotinstalled` - Alert and open the python download page if no python version is installed (1 = yes, 0 = no).
 
 ## Usage
 
